@@ -5,7 +5,7 @@ description: "Why real-world software engineering demands trade-off awareness, d
 date: 2026-10-10 14:00:00 +0000
 category: "Software Engineering"
 permalink: /posts/pragmatic-software-engineering-principles/
-image: "/assets/images/covers/cover-software-engineering.svg"
+image: "/assets/images/covers/softwareEngineering.png"
 featured: false
 author: "Hira Jabeen"
 tags:

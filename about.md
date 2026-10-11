@@ -5,9 +5,16 @@ description: "Practice Lead specializing in Forward Deployed Engineering, resili
 permalink: /about/
 ---
 
-## Hi, I'm Hira Jabeen
+<div style="display: flex; align-items: center; gap: 2rem; margin: 1rem 0 2.5rem; flex-wrap: wrap;">
+  <img src="{{ '/assets/images/hira-jabeen.jpg' | relative_url }}" alt="Hira Jabeen" style="width: 150px; height: 150px; border-radius: 9999px; object-fit: cover; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.18), 0 8px 10px -6px rgba(0, 0, 0, 0.1); border: 3px solid var(--accent-primary);">
+  <div>
+    <h1 style="margin: 0; font-size: 2.15rem; font-weight: 800; color: var(--text-primary); letter-spacing: -0.025em;">Hira Jabeen</h1>
+    <p style="margin: 0.35rem 0 0; font-size: 1.15rem; color: var(--accent-primary); font-weight: 600;">Practice Lead &amp; Senior Engineer</p>
+    <p style="margin: 0.4rem 0 0; font-size: 0.95rem; color: var(--text-muted); line-height: 1.5;">Forward Deployed Engineering &bull; Software Systems &bull; Intelligent Automation &bull; AI Applications</p>
+  </div>
+</div>
 
-**Practice Lead & Senior Engineer** operating at the nexus of technology strategy, hands-on software engineering, and real-world business outcomes.
+Operating at the nexus of technology strategy, hands-on software engineering, and real-world business outcomes.
 
 As a **Practice Lead**, I guide cross-functional technical initiatives from ambiguous problem discovery to scalable, production-grade deployment. My work centers on building high-impact engineering capabilities, mentoring engineers, and bridging the gap between what businesses need and what software delivers.
 

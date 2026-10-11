@@ -30,7 +30,7 @@ baseurl: "/Hira-s-Blog"
 author:
   name: "Hira Jabeen"
   bio: "Practice Lead specializing in Forward Deployed Engineering, distributed systems, and intelligent automation."
-  avatar: "/assets/images/default-avatar.svg" # Put your photo in assets/images/ or link to an image
+  avatar: "/assets/images/hira-jabeen.jpg" # Put your photo in assets/images/ or link to an image
   github: "HiraJabeen01"
   # twitter: "yourusername"
   # linkedin: "yourusername"
@@ -56,7 +56,7 @@ theme_settings:
   show_author_box: true
 
   # Number of recent posts shown on homepage
-  posts_per_page: 6
+  posts_per_page: 9
 
 # ------------------------------------------------------------------------------
 # 4. NAVIGATION LINKS (Top Header)

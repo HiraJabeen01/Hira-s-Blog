@@ -5,7 +5,7 @@ description: "A deep dive into architecting resilient automation pipelines, elim
 date: 2026-10-09 11:00:00 +0000
 category: "Automation"
 permalink: /posts/intelligent-automation-systems-and-workflows/
-image: "/assets/images/covers/cover-automation.svg"
+image: "/assets/images/covers/DevOps.png"
 featured: false
 author: "Hira Jabeen"
 tags:

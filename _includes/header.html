@@ -3,7 +3,11 @@
     <div class="header-inner">
       <!-- Brand Logo / Title -->
       <a href="{{ '/' | relative_url }}" class="brand" aria-label="{{ site.title }}">
-        <span class="brand-icon">{{ site.title | slice: 0, 1 | default: "O" }}</span>
+        {% if site.author.avatar %}
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="brand-avatar" style="width: 2.15rem; height: 2.15rem; border-radius: 9999px; object-fit: cover; border: 2px solid var(--accent-primary); display: block;">
+        {% else %}
+        <span class="brand-icon">{{ site.title | slice: 0, 1 | default: "H" }}</span>
+        {% endif %}
         <span>{{ site.title }}</span>
       </a>
 

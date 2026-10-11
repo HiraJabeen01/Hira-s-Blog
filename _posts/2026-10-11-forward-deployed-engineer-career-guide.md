@@ -5,7 +5,7 @@ description: "Explore the Forward Deployed Engineer career path, essential techn
 date: 2026-10-11 18:30:00 +0000
 category: "Engineering Careers"
 permalink: /posts/forward-deployed-engineer-career-guide/
-image: "/assets/images/covers/cover-fde.svg"
+image: "/assets/images/covers/ForwardDeployedEngineer.png"
 featured: true
 author: "Hira Jabeen"
 tags:
