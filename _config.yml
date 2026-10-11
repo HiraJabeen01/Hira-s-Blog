@@ -8,8 +8,8 @@
 # 1. BLOG IDENTITY
 # ------------------------------------------------------------------------------
 title: "Hira's Blog"
-tagline: "Thoughts on craft, technology, and building ideas."
-description: "A fast, minimalist, and modern publication by Hira Jabeen."
+tagline: "Exploring Forward Deployed Engineering, Software Systems, and Intelligent Automation."
+description: "Articles and engineering perspectives on Forward Deployed Engineering (FDE), software systems architecture, and intelligent automation by Hira Jabeen."
 
 # Your website URL:
 # If your repo is named "my-blog" and your username is "johndoe", set:
@@ -29,7 +29,7 @@ baseurl: "/Hira-s-Blog"
 # ------------------------------------------------------------------------------
 author:
   name: "Hira Jabeen"
-  bio: "Software builder and creative writer exploring modern software craftsmanship."
+  bio: "Engineer working at the intersection of Forward Deployed Engineering, software systems, and intelligent automation."
   avatar: "/assets/images/default-avatar.svg" # Put your photo in assets/images/ or link to an image
   github: "HiraJabeen01"
   # twitter: "yourusername"

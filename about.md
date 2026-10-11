@@ -1,25 +1,39 @@
 ---
 layout: page
 title: "About Me"
-description: "A little background on who I am and what I build."
+description: "Engineer working at the intersection of software, intelligent automation, and real-world impact."
 permalink: /about/
 ---
 
 Hello there! Welcome to my blog.
 
-I'm a passionate writer, designer, and software enthusiast who loves crafting thoughtful digital experiences and sharing what I learn along the way.
+I'm **Hira Jabeen**, an engineer passionate about solving complex real-world problems through robust software architectures, intelligent automation pipelines, and customer-grounded engineering.
 
-## What You'll Find Here
+---
 
-On this blog, I write regularly about:
-- **Software Engineering**: Architectural patterns, frontend aesthetics, and clean code.
-- **Design & UI**: Creating modern, accessible, and delightful digital user experiences.
-- **Writing & Productivity**: Workflows, mental models, and lessons learned from shipping products.
+## What I Write About
 
-> "Simplicity is prerequisite for reliability." — Edsger W. Dijkstra
+On this blog, I document insights, architectural patterns, and practical guides across three core domains:
 
-## About This Website
+1. **Forward Deployed Engineering (FDE)**:
+   - Operating at the nexus of software development, product strategy, and direct customer impact.
+   - Navigating ambiguity, prototyping rapidly, and deploying mission-critical systems into production environments.
 
-This blog is built using **[OpenBlog](https://github.com/Microtechx-GmbH/OpenBlog)**, an open-source, zero-config blog starter hosted completely free on **GitHub Pages**.
+2. **Software Engineering & Architecture**:
+   - Building resilient, defensively designed distributed systems and clean API contracts.
+   - Prioritizing operational simplicity, observability, and long-term maintainability over premature complexity.
 
-If you'd like to reach out, collaborate, or say hi, feel free to connect via [GitHub](https://github.com/HiraJabeen01)!
+3. **Intelligent Automation**:
+   - Designing event-driven workflows, asynchronous message pipelines, and zero-toil integrations.
+   - Bridging disparate enterprise systems and empowering teams through human-in-the-loop automation.
+
+> *"The future of engineering isn't just about building software. It's about making software work where it matters most."*
+
+---
+
+## Let's Connect
+
+If you'd like to collaborate, discuss engineering challenges, or explore ideas, feel free to connect with me:
+
+- **GitHub**: [github.com/HiraJabeen01](https://github.com/HiraJabeen01)
+- **Repository**: [Hira's Blog on GitHub](https://github.com/HiraJabeen01/Hira-s-Blog)
