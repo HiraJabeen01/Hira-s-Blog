@@ -49,6 +49,14 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.tags and page.tags.size > 0 %}
+  <div class="article-tags" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 2.5rem; margin-bottom: 2rem;">
+    {% for tag in page.tags %}
+    <span class="badge" style="font-size: 0.8rem; padding: 0.25rem 0.75rem;">#{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+
   {% if site.theme_settings.show_author_box %}
   <div class="author-box">
     <img class="author-box-avatar" src="{{ site.author.avatar | default: '/assets/images/default-avatar.svg' | relative_url }}" alt="{{ site.author.name }}">
@@ -56,13 +64,13 @@ layout: default
       <h3 class="author-box-title">Written by {{ page.author | default: site.author.name }}</h3>
       <p class="author-box-bio">{{ site.author.bio }}</p>
       <div class="author-box-socials">
-        {% if site.author.twitter %}
+        {% if site.author.twitter and site.author.twitter != "" %}
         <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener noreferrer" class="social-link">Twitter</a>
         {% endif %}
-        {% if site.author.github %}
+        {% if site.author.github and site.author.github != "" %}
         <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
         {% endif %}
-        {% if site.author.linkedin %}
+        {% if site.author.linkedin and site.author.linkedin != "" %}
         <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
         {% endif %}
       </div>

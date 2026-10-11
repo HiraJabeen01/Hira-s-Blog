@@ -5,8 +5,8 @@ description: "Everything you need to know about setting up and publishing your p
 date: 2026-10-11 12:00:00 +0000
 category: "Announcement"
 image: "/assets/images/covers/cover-1.svg"
-featured: true
-author: "Alex Morgan"
+featured: false
+author: "Hira Jabeen"
 ---
 
 Welcome to **OpenBlog**! If you are reading this article, congratulations — your new blog template is officially live.

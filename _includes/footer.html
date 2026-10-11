@@ -6,13 +6,13 @@
       </div>
 
       <div class="footer-links">
-        {% if site.author.twitter %}
+        {% if site.author.twitter and site.author.twitter != "" %}
         <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener noreferrer" class="footer-link">Twitter</a>
         {% endif %}
-        {% if site.author.github %}
+        {% if site.author.github and site.author.github != "" %}
         <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
         {% endif %}
-        {% if site.author.linkedin %}
+        {% if site.author.linkedin and site.author.linkedin != "" %}
         <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
         {% endif %}
         {% if site.footer.show_rss %}

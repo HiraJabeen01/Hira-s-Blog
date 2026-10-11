@@ -6,7 +6,7 @@ date: 2026-10-09 14:15:00 +0000
 category: "Design"
 image: "/assets/images/covers/cover-3.svg"
 featured: false
-author: "Alex Morgan"
+author: "Hira Jabeen"
 ---
 
 OpenBlog was engineered from the ground up so that anyone — even someone who has never touched CSS — can personalize their blog to reflect their personal style.

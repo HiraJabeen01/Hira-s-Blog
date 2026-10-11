@@ -7,9 +7,9 @@
 # ------------------------------------------------------------------------------
 # 1. BLOG IDENTITY
 # ------------------------------------------------------------------------------
-title: "OpenBlog"
+title: "Hira's Blog"
 tagline: "Thoughts on craft, technology, and building ideas."
-description: "A fast, minimalist, and modern publication powered by GitHub Pages."
+description: "A fast, minimalist, and modern publication by Hira Jabeen."
 
 # Your website URL:
 # If your repo is named "my-blog" and your username is "johndoe", set:
@@ -21,20 +21,20 @@ description: "A fast, minimalist, and modern publication powered by GitHub Pages
 # If you use a custom domain (e.g. blog.yourname.com), set:
 #   url: "https://blog.yourname.com"
 #   baseurl: ""
-url: "https://microtechx-gmbh.github.io"
-baseurl: "/OpenBlog"
+url: "https://hirajabeen01.github.io"
+baseurl: "/Hira-s-Blog"
 
 # ------------------------------------------------------------------------------
 # 2. AUTHOR INFORMATION
 # ------------------------------------------------------------------------------
 author:
-  name: "Alex Morgan"
-  bio: "Designer, writer, and engineer exploring modern software craftsmanship."
+  name: "Hira Jabeen"
+  bio: "Software builder and creative writer exploring modern software craftsmanship."
   avatar: "/assets/images/default-avatar.svg" # Put your photo in assets/images/ or link to an image
-  twitter: "alexmorgan"
-  github: "microtechx-gmbh"
-  linkedin: "alexmorgan"
-  email: "alex@example.com"
+  github: "HiraJabeen01"
+  # twitter: "yourusername"
+  # linkedin: "yourusername"
+  # email: "you@example.com"
 
 # ------------------------------------------------------------------------------
 # 3. APPEARANCE & THEME SETTINGS

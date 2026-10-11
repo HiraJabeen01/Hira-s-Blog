@@ -22,4 +22,4 @@ On this blog, I write regularly about:
 
 This blog is built using **[OpenBlog](https://github.com/Microtechx-GmbH/OpenBlog)**, an open-source, zero-config blog starter hosted completely free on **GitHub Pages**.
 
-If you'd like to reach out, collaborate, or say hi, feel free to connect via [Twitter](https://twitter.com) or [GitHub](https://github.com)!
+If you'd like to reach out, collaborate, or say hi, feel free to connect via [GitHub](https://github.com/HiraJabeen01)!

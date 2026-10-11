@@ -6,7 +6,7 @@ date: 2026-10-10 10:30:00 +0000
 category: "Writing"
 image: "/assets/images/covers/cover-2.svg"
 featured: false
-author: "Alex Morgan"
+author: "Hira Jabeen"
 ---
 
 Writing in Markdown allows you to focus purely on your words while producing structured, accessible, and beautifully formatted HTML.
