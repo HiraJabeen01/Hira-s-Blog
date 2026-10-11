@@ -1,39 +1,64 @@
 ---
 layout: page
 title: "About Me"
-description: "Engineer working at the intersection of software, intelligent automation, and real-world impact."
+description: "Practice Lead specializing in Forward Deployed Engineering, resilient software architectures, and intelligent automation."
 permalink: /about/
 ---
 
-Hello there! Welcome to my blog.
+## Hi, I'm Hira Jabeen
 
-I'm **Hira Jabeen**, an engineer passionate about solving complex real-world problems through robust software architectures, intelligent automation pipelines, and customer-grounded engineering.
+**Practice Lead & Senior Engineer** operating at the nexus of technology strategy, hands-on software engineering, and real-world business outcomes.
 
----
-
-## What I Write About
-
-On this blog, I document insights, architectural patterns, and practical guides across three core domains:
-
-1. **Forward Deployed Engineering (FDE)**:
-   - Operating at the nexus of software development, product strategy, and direct customer impact.
-   - Navigating ambiguity, prototyping rapidly, and deploying mission-critical systems into production environments.
-
-2. **Software Engineering & Architecture**:
-   - Building resilient, defensively designed distributed systems and clean API contracts.
-   - Prioritizing operational simplicity, observability, and long-term maintainability over premature complexity.
-
-3. **Intelligent Automation**:
-   - Designing event-driven workflows, asynchronous message pipelines, and zero-toil integrations.
-   - Bridging disparate enterprise systems and empowering teams through human-in-the-loop automation.
-
-> *"The future of engineering isn't just about building software. It's about making software work where it matters most."*
+As a **Practice Lead**, I guide cross-functional technical initiatives from ambiguous problem discovery to scalable, production-grade deployment. My work centers on building high-impact engineering capabilities, mentoring engineers, and bridging the gap between what businesses need and what software delivers.
 
 ---
 
-## Let's Connect
+## 🎯 Core Practice Pillars
 
-If you'd like to collaborate, discuss engineering challenges, or explore ideas, feel free to connect with me:
+My technical focus and practice leadership span three interconnected disciplines:
+
+### 1. Forward Deployed Engineering (FDE)
+- **Customer-Grounded Architecture:** Embedding directly with end-users and stakeholders to uncover root operational challenges rather than just building requested tickets.
+- **Rapid Prototyping to Production:** Moving fast from proof-of-concept to hardened enterprise systems with security, compliance, and reliability built in.
+- **Reusability & Scale:** Extracting customer-specific solutions into reusable platform components, blueprints, and internal developer tooling.
+
+### 2. Software Systems & Architecture
+- **Resilient System Design:** Building decoupled architectures with strict contract validation, idempotency guards, and graceful degradation.
+- **Defensive Engineering:** Implementing circuit breakers, dead-letter queues, and comprehensive distributed tracing across complex workflows.
+- **Maintainable Simplicity:** Advocating for pragmatic technology choices that reduce cognitive overhead and eliminate premature complexity.
+
+### 3. Intelligent Automation & Workflows
+- **Zero-Toil Operations:** Eliminating repetitive manual processes through event-driven webhooks, message queues, and automated reconciliation.
+- **Human-in-the-Loop Orchestration:** Architecting high-trust workflows that combine automated data extraction with human approval gates.
+- **AI & Systems Integration:** Safely integrating modern AI models into existing enterprise data pipelines and operational workflows.
+
+---
+
+## 🧭 Leadership Philosophy
+
+> *"The true measure of engineering excellence is not the volume of code shipped, but the durability of the problems solved."*
+
+1. **Outcomes Over Outputs:** Code is a liability; solved problems are the asset. We celebrate business impact, reliability, and customer adoption above raw volume.
+2. **Pragmatic Technology Choices:** Choose proven, observable, and debuggable architectures over untested hype.
+3. **Engineering Empowerment:** Fostering a culture of shared ownership, continuous learning, and cross-functional empathy between technical and product teams.
+
+---
+
+## 🛠️ Areas of Expertise
+
+| Focus Area | Core Competencies |
+| :--- | :--- |
+| **Practice Leadership** | Technical Strategy, Solution Architecture, Delivery Oversight, Team Mentorship |
+| **Engineering** | Distributed Systems, API Contract Design, Cloud Infrastructure, CI/CD Pipelines |
+| **Automation & Data** | Event-Driven Architectures, Webhook Gateways, Workflow Orchestration, Resilient ETL |
+| **Modern AI Systems** | Applied AI Integration, Retrieval Workflows, Safe Boundary Enforcement |
+
+---
+
+## 📬 Let's Connect & Collaborate
+
+Whether you are looking to exchange ideas on Forward Deployed Engineering, explore intelligent automation architectures, or discuss technical leadership:
 
 - **GitHub**: [github.com/HiraJabeen01](https://github.com/HiraJabeen01)
 - **Repository**: [Hira's Blog on GitHub](https://github.com/HiraJabeen01/Hira-s-Blog)
+- **Explore Articles**: [Browse All Publications]({{ '/archive/' | relative_url }})
