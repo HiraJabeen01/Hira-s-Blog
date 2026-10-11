@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="site-container">
+    <div class="footer-inner">
+      <div class="footer-copy">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. {{ site.footer.copyright_text }}</p>
+      </div>
+
+      <div class="footer-links">
+        {% if site.author.twitter %}
+        <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener noreferrer" class="footer-link">Twitter</a>
+        {% endif %}
+        {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub</a>
+        {% endif %}
+        {% if site.author.linkedin %}
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        {% endif %}
+        {% if site.footer.show_rss %}
+        <a href="{{ '/feed.xml' | relative_url }}" class="footer-link">RSS Feed</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,49 @@
+<article class="post-card">
+  <a href="{{ post.url | relative_url }}" class="card-media-wrap" aria-label="{{ post.title }}">
+    {% if post.image %}
+    <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+    {% else %}
+    <img src="{{ '/assets/images/covers/cover-1.svg' | relative_url }}" alt="{{ post.title }}" loading="lazy">
+    {% endif %}
+  </a>
+
+  <div class="card-body">
+    <div class="card-badge-row">
+      {% if post.category %}
+      <span class="badge">{{ post.category }}</span>
+      {% else %}
+      <span class="badge">Article</span>
+      {% endif %}
+
+      {% if site.theme_settings.show_reading_time %}
+      <span class="post-meta-line">
+        {% assign words = post.content | number_of_words %}
+        {% assign read_time = words | divided_by: 180 | at_least: 1 %}
+        {{ read_time }} min read
+      </span>
+      {% endif %}
+    </div>
+
+    <h3 class="card-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h3>
+
+    <p class="card-excerpt">
+      {% if post.description %}
+        {{ post.description }}
+      {% else %}
+        {{ post.excerpt | strip_html | truncatewords: 22 }}
+      {% endif %}
+    </p>
+
+    <div class="card-footer">
+      <div class="author-meta">
+        <img class="author-avatar" src="{{ site.author.avatar | default: '/assets/images/default-avatar.svg' | relative_url }}" alt="{{ site.author.name }}" style="width: 2rem; height: 2rem;">
+        <div class="author-info">
+          <span class="author-name" style="font-size: 0.85rem;">{{ post.author | default: site.author.name }}</span>
+          <span class="author-date">{{ post.date | date: "%b %d, %Y" }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

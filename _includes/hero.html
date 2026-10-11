@@ -1,0 +1,54 @@
+{% assign featured_post = site.posts | where: "featured", true | first %}
+{% if featured_post == nil %}
+  {% assign featured_post = site.posts.first %}
+{% endif %}
+
+{% if featured_post and site.theme_settings.show_hero %}
+<section class="hero-section">
+  <article class="featured-card">
+    <a href="{{ featured_post.url | relative_url }}" class="featured-image-wrap" aria-label="{{ featured_post.title }}">
+      {% if featured_post.image %}
+      <img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}" loading="eager">
+      {% else %}
+      <img src="{{ '/assets/images/covers/cover-1.svg' | relative_url }}" alt="{{ featured_post.title }}" loading="eager">
+      {% endif %}
+    </a>
+
+    <div class="featured-content">
+      <div class="badge-row">
+        <span class="badge featured-badge">Featured</span>
+        {% if featured_post.category %}
+        <span class="badge">{{ featured_post.category }}</span>
+        {% endif %}
+      </div>
+
+      <h2 class="featured-title">
+        <a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a>
+      </h2>
+
+      <p class="featured-excerpt">
+        {% if featured_post.description %}
+          {{ featured_post.description }}
+        {% else %}
+          {{ featured_post.excerpt | strip_html | truncatewords: 28 }}
+        {% endif %}
+      </p>
+
+      <div class="author-meta">
+        <img class="author-avatar" src="{{ site.author.avatar | default: '/assets/images/default-avatar.svg' | relative_url }}" alt="{{ site.author.name }}">
+        <div class="author-info">
+          <span class="author-name">{{ featured_post.author | default: site.author.name }}</span>
+          <span class="author-date">
+            {{ featured_post.date | date: "%B %d, %Y" }}
+            {% if site.theme_settings.show_reading_time %}
+              {% assign words = featured_post.content | number_of_words %}
+              {% assign read_time = words | divided_by: 180 | at_least: 1 %}
+              &bull; {{ read_time }} min read
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+{% endif %}

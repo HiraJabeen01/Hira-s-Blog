@@ -1,0 +1,92 @@
+---
+layout: default
+---
+
+<article class="content-container">
+  <header class="article-header">
+    <div class="article-breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span>/</span>
+      <a href="{{ '/archive/' | relative_url }}">Articles</a>
+      {% if page.category %}
+      <span>/</span>
+      <span class="badge" style="font-size: 0.75rem;">{{ page.category }}</span>
+      {% endif %}
+    </div>
+
+    <h1 class="article-title">{{ page.title }}</h1>
+
+    {% if page.description %}
+    <p class="article-subtitle">{{ page.description }}</p>
+    {% endif %}
+
+    <div class="article-author-row">
+      <div class="author-meta">
+        <img class="author-avatar" src="{{ site.author.avatar | default: '/assets/images/default-avatar.svg' | relative_url }}" alt="{{ site.author.name }}">
+        <div class="author-info" style="text-align: left;">
+          <span class="author-name">{{ page.author | default: site.author.name }}</span>
+          <span class="author-date">Published on {{ page.date | date: "%B %d, %Y" }}</span>
+        </div>
+      </div>
+
+      {% if site.theme_settings.show_reading_time %}
+      <div class="post-meta-line">
+        {% assign words = content | number_of_words %}
+        {% assign read_time = words | divided_by: 180 | at_least: 1 %}
+        <strong>{{ read_time }} min</strong> read
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if page.image %}
+  <div class="article-cover">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  {% if site.theme_settings.show_author_box %}
+  <div class="author-box">
+    <img class="author-box-avatar" src="{{ site.author.avatar | default: '/assets/images/default-avatar.svg' | relative_url }}" alt="{{ site.author.name }}">
+    <div>
+      <h3 class="author-box-title">Written by {{ page.author | default: site.author.name }}</h3>
+      <p class="author-box-bio">{{ site.author.bio }}</p>
+      <div class="author-box-socials">
+        {% if site.author.twitter %}
+        <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener noreferrer" class="social-link">Twitter</a>
+        {% endif %}
+        {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+        {% endif %}
+        {% if site.author.linkedin %}
+        <a href="https://linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Post Navigation -->
+  <nav class="post-navigation" style="display: flex; justify-content: space-between; margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+    <div>
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" style="display: flex; flex-direction: column; text-decoration: none;">
+        <span style="font-size: 0.8rem; color: var(--text-muted);">&larr; Previous Post</span>
+        <span style="font-weight: 600; color: var(--text-primary);">{{ page.previous.title | truncate: 35 }}</span>
+      </a>
+      {% endif %}
+    </div>
+    <div style="text-align: right;">
+      {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" style="display: flex; flex-direction: column; text-decoration: none;">
+        <span style="font-size: 0.8rem; color: var(--text-muted);">Next Post &rarr;</span>
+        <span style="font-weight: 600; color: var(--text-primary);">{{ page.next.title | truncate: 35 }}</span>
+      </a>
+      {% endif %}
+    </div>
+  </nav>
+</article>

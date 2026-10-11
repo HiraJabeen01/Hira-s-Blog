@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" fill="none">
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="50%" stop-color="#581C87"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g3)"/>
+  <!-- Palette circles -->
+  <circle cx="400" cy="337" r="90" fill="#4F46E5" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="6"/>
+  <circle cx="530" cy="337" r="90" fill="#7C3AED" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="6"/>
+  <circle cx="660" cy="337" r="90" fill="#059669" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="6"/>
+  <circle cx="790" cy="337" r="90" fill="#E11D48" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="6"/>
+</svg>

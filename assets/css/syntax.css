@@ -1,0 +1,49 @@
+/* Rouge Syntax Highlighting for Jekyll Code Blocks (Light & Dark compatible) */
+
+.highlight {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+}
+
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf, .highlight .cm, .highlight .c1, .highlight .cs {
+  color: #64748b;
+  font-style: italic;
+}
+
+.highlight .k, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+  color: #7c3aed;
+  font-weight: 600;
+}
+
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss {
+  color: #059669;
+}
+
+.highlight .na, .highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn, .highlight .nt, .highlight .nv {
+  color: #2563eb;
+}
+
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo {
+  color: #d97706;
+}
+
+.highlight .o, .highlight .ow {
+  color: #e11d48;
+}
+
+[data-theme="dark"] .highlight .k, [data-theme="dark"] .highlight .kd {
+  color: #a78bfa;
+}
+
+[data-theme="dark"] .highlight .s, [data-theme="dark"] .highlight .s2 {
+  color: #34d399;
+}
+
+[data-theme="dark"] .highlight .na, [data-theme="dark"] .highlight .nf {
+  color: #60a5fa;
+}
+
+[data-theme="dark"] .highlight .m, [data-theme="dark"] .highlight .mi {
+  color: #fbbf24;
+}

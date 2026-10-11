@@ -1,0 +1,99 @@
+# ==============================================================================
+#  OPENBLOG CONFIGURATION FILE
+#  Welcome! You only need to edit this file to personalize your entire blog.
+#  All changes take effect automatically when you commit your edits.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. BLOG IDENTITY
+# ------------------------------------------------------------------------------
+title: "OpenBlog"
+tagline: "Thoughts on craft, technology, and building ideas."
+description: "A fast, minimalist, and modern publication powered by GitHub Pages."
+
+# Your website URL:
+# If your repo is named "my-blog" and your username is "johndoe", set:
+#   url: "https://johndoe.github.io"
+#   baseurl: "/my-blog"
+# If this is your user page (repo named "johndoe.github.io"), set:
+#   url: "https://johndoe.github.io"
+#   baseurl: ""
+# If you use a custom domain (e.g. blog.yourname.com), set:
+#   url: "https://blog.yourname.com"
+#   baseurl: ""
+url: "https://microtechx-gmbh.github.io"
+baseurl: "/OpenBlog"
+
+# ------------------------------------------------------------------------------
+# 2. AUTHOR INFORMATION
+# ------------------------------------------------------------------------------
+author:
+  name: "Alex Morgan"
+  bio: "Designer, writer, and engineer exploring modern software craftsmanship."
+  avatar: "/assets/images/default-avatar.svg" # Put your photo in assets/images/ or link to an image
+  twitter: "alexmorgan"
+  github: "microtechx-gmbh"
+  linkedin: "alexmorgan"
+  email: "alex@example.com"
+
+# ------------------------------------------------------------------------------
+# 3. APPEARANCE & THEME SETTINGS
+# ------------------------------------------------------------------------------
+theme_settings:
+  # Choose default color mode: "system" (follows device), "dark", or "light"
+  default_theme: "system"
+
+  # Choose your accent color: "indigo", "blue", "violet", "emerald", "rose", "amber"
+  accent_color: "indigo"
+
+  # Show featured post hero section on the homepage? (true or false)
+  show_hero: true
+
+  # Display estimated reading time on article cards? (true or false)
+  show_reading_time: true
+
+  # Show author card at the end of each blog post? (true or false)
+  show_author_box: true
+
+  # Number of recent posts shown on homepage
+  posts_per_page: 6
+
+# ------------------------------------------------------------------------------
+# 4. NAVIGATION LINKS (Top Header)
+# ------------------------------------------------------------------------------
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Articles"
+    url: "/archive/"
+  - title: "About"
+    url: "/about/"
+
+# ------------------------------------------------------------------------------
+# 5. FOOTER & SOCIAL LINKS
+# ------------------------------------------------------------------------------
+footer:
+  copyright_text: "Built with OpenBlog. Free & open source."
+  show_rss: true
+
+# ------------------------------------------------------------------------------
+# 6. JEKYLL BUILD SETTINGS (Standard GitHub Pages settings)
+# ------------------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor

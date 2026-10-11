@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="site-container">
+  <header style="margin-bottom: 3rem; text-align: center;">
+    <h1 style="font-size: 2.5rem; font-weight: 800; letter-spacing: -0.03em; color: var(--text-primary); margin-bottom: 0.5rem;">
+      All Articles
+    </h1>
+    <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
+      Browse through the complete archive of articles, guides, and thoughts.
+    </p>
+  </header>
+
+  <div class="posts-grid">
+    {% for post in site.posts %}
+      {% include post-card.html post=post %}
+    {% endfor %}
+  </div>
+</div>
